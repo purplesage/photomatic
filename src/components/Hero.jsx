@@ -14,7 +14,7 @@ const Hero = () => {
       <motion.img
         animate={{
           opacity: [1, 0],
-          transition: { delay: 1, duration: 1 },
+          transition: { delay: 2, duration: 1 },
         }}
         src={heroImage}
         alt="camera"
@@ -23,7 +23,7 @@ const Hero = () => {
       <motion.img
         animate={{
           opacity: [0, 1],
-          transition: { delay: 2, duration: 1 },
+          transition: { delay: 3, duration: 1 },
         }}
         src={colorHeroImage}
         alt="camera color"
@@ -60,7 +60,7 @@ const Hero = () => {
             opacity: [0, 1],
             transition: { delay: 0.5 },
           }}
-          className="text-sm text-white font-display1 bg-zinc-800 bg-opacity-60 px-2 py-1 rounded-md drop-shadow-md"
+          className="text-sm text-white font-display1 bg-zinc-800/60 px-2 py-1 rounded-md drop-shadow-md"
         >
           Recuerdos creados a la perfección
         </motion.h3>
@@ -69,7 +69,7 @@ const Hero = () => {
         animate={{
           y: [100, 0],
           opacity: [0, 1],
-          transition: { delay: 3 },
+          transition: { delay: 4 },
         }}
         className="bottom-[12rem] absolute mt-5 bg-zinc-900 text-white font-body text-sm px-3 py-1 rounded-sm "
         href="#informacion"
