@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster+Two:wght@700&family=Staatliches&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster+Two:wght@700&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 
 /* font-family: Staatliches, cursive; */
 /* "Bebas Neue", cursive; */
@@ -12,3 +12,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* .gradient-03 {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  left: 40%;
+  top: 0;
+
+  background: rgba(232, 66, 130, 0.233);
+  filter: blur(120px);
+  transform: rotate(-114.2deg);
+}
+ */
+.gradient-02 {
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  bottom: 0px;
+  right: 40%;
+
+  background: #e74d4d;
+  filter: blur(140px);
+}

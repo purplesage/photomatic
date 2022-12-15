@@ -2,11 +2,11 @@ import {
   FaInstagramSquare,
   FaFacebookSquare,
   FaWhatsappSquare,
-} from "react-icons/fa";
-import heroImage from "../assets/images/foto_background.webp";
-import colorHeroImage from "../assets/images/foto_background_color.webp";
+} from 'react-icons/fa';
+import heroImage from '../assets/images/foto_background.webp';
+import colorHeroImage from '../assets/images/foto_background_color.webp';
 
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
@@ -14,7 +14,7 @@ const Hero = () => {
       <motion.img
         animate={{
           opacity: [1, 0],
-          transition: { delay: 2, duration: 1 },
+          transition: { delay: 2, duration: 4 },
         }}
         src={heroImage}
         alt="camera"
@@ -23,7 +23,7 @@ const Hero = () => {
       <motion.img
         animate={{
           opacity: [0, 1],
-          transition: { delay: 3, duration: 1 },
+          transition: { delay: 2, duration: 2 },
         }}
         src={colorHeroImage}
         alt="camera color"
@@ -50,7 +50,7 @@ const Hero = () => {
             opacity: [0, 1],
           }}
           transition
-          className="font-display1 text-[#fa104a] text-6xl drop-shadow-md"
+          className="font-display1 text-mainRed text-6xl drop-shadow-md"
         >
           Photomatic
         </motion.h1>
@@ -71,7 +71,7 @@ const Hero = () => {
           opacity: [0, 1],
           transition: { delay: 4 },
         }}
-        className="bottom-[12rem] absolute mt-5 bg-zinc-900 text-white font-body text-sm px-3 py-1 rounded-sm "
+        className="bottom-[12rem] absolute mt-5 bg-zinc-800 text-white font-body text-sm px-3 py-1 rounded-sm "
         href="#informacion"
       >
         ¿Quiénes somos?
